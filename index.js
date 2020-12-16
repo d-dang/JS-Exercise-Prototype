@@ -100,10 +100,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. this will bind to the window object if there are no other objects it can refer to 
+    2. in a function, this will refer to the object this is inside 
+    3. in a constructor function, this will refer to the new object created by the function
+    4. .call and .apply will explicity define the object this will refer to 
   */
   
   
